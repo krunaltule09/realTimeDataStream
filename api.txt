@@ -1,0 +1,26 @@
+PH sensor--------------------------------------------------------------------------------------
+GET https://api.thingspeak.com/channels/867566/fields/1.json?api_key=7T1QFLF1M9KN8VJ3&results=2
+
+
+Gas sensor-------------------------------------------------------------------------------------
+GET https://api.thingspeak.com/channels/866801/fields/1.json?api_key=T8MCJOWMCR32O7YB&results=2
+
+
+{
+'channel': {'id': 866801, 'name': 'gas mq7', 'latitude': '0.0', 'longitude': '0.0', 'field1': 'Field Label 1', 'field2': 'asfsf', 'created_at': '2019-09-19T07:49:59Z', 'updated_at': '2019-09-20T05:55:08Z', 'last_entry_id': 17},
+
+'feeds': [{'created_at': '2019-09-21T13:16:30Z', 'entry_id': 16, 'field1': '49'},
+
+{'created_at': '2019-09-21T13:16:46Z', 'entry_id': 17, 'field1': '51'}]
+
+}
+
+api=api.json()
+api['feeds'][0]['field1']
+
+-----------------------------------------------------------------------------------------------
+
+
+sound sensor-----------------------------------------------------------------------------------
+GET https://api.thingspeak.com/channels/866856/fields/1.json?api_key=7VYAGAHYP3JJACP0&results=2
+

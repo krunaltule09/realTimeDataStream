@@ -1,0 +1,78 @@
+
+
+body{
+	margin:0;
+	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+
+}
+
+.navbar{
+width: 100%;
+}
+
+.row > .sidebar{
+	
+	left:0;
+	
+	
+	
+	
+	
+	background-color:#000;
+	
+}
+
+.side-container{
+	margin:50px -15px 20px -20px;
+	list-style-type: none;
+	position:fixed;
+	height:100%;
+
+	
+	
+	
+}
+.side-container li a{
+	text-decoration: none;
+	
+	padding:20px 60px ;
+	color:aliceblue;
+}
+.side-container li{
+	list-style-type: none;
+
+	padding:30px 10px 20px 10px; 
+	
+	
+	
+}
+
+
+.side-container li a:hover{
+	background-color: #24292c;
+}
+
+
+.navbar-brand{
+	padding:20px 18px;
+}
+
+.nav-item .nav-link{
+	margin: 10px;
+	padding:15px 18px;
+}
+
+.description{
+
+	background-color: rgba(224,255,255,0.4);
+	background-color: rgba(66,33,231,0.4);
+	padding-top: 20px;
+	
+}
+
+
+.gauge{
+	padding:80px 5px ;
+}
